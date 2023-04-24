@@ -62,7 +62,7 @@ const News = (props: NewsProps) => {
       <div className="h-auto flex justify-center lg:justify-between">
         <div className="py-5 lg:px-40 px-10">
           <div className="mt-[10px]">
-            <div className="w-[300px] lg:w-[500px]" id="target">
+            <div className="w-[300px] lg:w-full" id="target">
               <ul>
                 {contents.map((content) => {
                   return (

@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <div>footer</div>
+      <div className="flex justify-center text-2xl font-bold">©️2023.Inc</div>
     </>
   );
 };
