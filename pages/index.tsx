@@ -14,7 +14,7 @@ export default function Home() {
         <title>TOP</title>
       </Head>
       <Header />
-      <main>
+      <main className="h-auto">
         <Carousel
           maw={320}
           mx="auto"
@@ -28,7 +28,6 @@ export default function Home() {
           <Carousel.Slide>2</Carousel.Slide>
           <Carousel.Slide>3</Carousel.Slide>
         </Carousel>
-        div
         <div>
           <Link href="/news">link</Link>
         </div>
