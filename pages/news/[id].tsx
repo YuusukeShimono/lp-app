@@ -1,11 +1,17 @@
 import { client } from "@/libs/client";
+import Head from "next/head";
 
 const NewsId = (props: any) => {
   return (
-    <div>
-      <h1>{props.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: props.content }} />
-    </div>
+    <>
+      <Head>
+        <title>{props.title}</title>
+      </Head>
+      <div>
+        <h1>{props.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: props.content }} />
+      </div>
+    </>
   );
 };
 
