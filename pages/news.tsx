@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { client } from "@/libs/client";
 
@@ -26,32 +25,7 @@ export const getStaticProps = async () => {
 };
 
 const News = (props: NewsProps) => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const [search, setSearch] = useState<{ contents: Content[] }>();
-
-  const handleSubmit = async (event: any) => {
-    event.preventDefault();
-    const q = event.currentTarget.query.value;
-    const data = await fetch("/api/search", {
-      method: "POST",
-      headers: { "Content-type": "application/json" },
-      body: JSON.stringify({ q }),
-    });
-    const json = await data.json();
-    setSearch(json);
-  };
-
-  const contents = search ? search.contents : props.contents;
+  const contents = props.contents;
 
   return (
     <>
@@ -59,7 +33,7 @@ const News = (props: NewsProps) => {
         <title>詳細ページ</title>
       </Head>
       <Header />
-      <div className="h-auto flex justify-center lg:justify-between">
+      <div className="h-auto flex justify-center lg:justify-between bg-green-300">
         <div className="py-5 lg:px-40 px-10">
           <div className="mt-[10px]">
             <div className="w-[300px] lg:w-full" id="target">
