@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between h-[120px] px-5 lg:px-20 py-5 lg:py-10 bg-blue-200">
+      <div className="flex justify-between h-[120px] lg:h-[150px] px-5 lg:px-20 py-5 lg:py-10 bg-blue-200">
         <IconContext.Provider value={{ size: "100px" }}>
           <div>
             <Link href="/">
