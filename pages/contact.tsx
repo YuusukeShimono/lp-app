@@ -10,8 +10,8 @@ const Contact = () => {
       </Head>
       <Header />
       <main className="h-[400px] bg-green-300 py-10">
-        <div className="text-2xl font-bold">メールでの問い合わせ</div>
-        <div className="text-red-700 my-5 text-sm hover:underline">
+        <div className="text-2xl">メールでの問い合わせ</div>
+        <div className="text-red-700 my-10 text-xl font-bold hover:underline flex justify-center">
           <a href="mailto:jungle379@gmail.com">メールはこちらをクリック</a>
         </div>
         <div className="text-sm">

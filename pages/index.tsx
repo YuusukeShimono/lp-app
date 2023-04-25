@@ -4,7 +4,12 @@ import Footer from "@/components/Footer";
 import { BackgroundImageSlider } from "@/components/Slider";
 import { staticPath } from "@/lib/$path";
 
-const images = [staticPath.$1_jpeg, staticPath.$2_jpeg, staticPath.$3_jpeg];
+const images = [
+  staticPath.$1_jpeg,
+  staticPath.$2_jpeg,
+  staticPath.$3_jpeg,
+  staticPath.$4_jpeg,
+];
 
 const Home = () => {
   return (

@@ -9,9 +9,13 @@ const Result = () => {
         <title>結果ページ</title>
       </Head>
       <Header />
-      <main className="h-full bg-green-300"></main>
+      <main className="h-[400px] bg-green-300 py-10">
+        <div className="text-2xl">月間結果</div>
+        <div>※データ集計後、作成します！</div>
+      </main>
       <Footer />
     </>
   );
 };
+
 export default Result;
