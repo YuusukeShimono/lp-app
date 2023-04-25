@@ -22,7 +22,6 @@ const Home = () => {
         <div className="py-10">
           <BackgroundImageSlider images={images} />
         </div>
-        <div></div>
       </main>
       <Footer />
     </>

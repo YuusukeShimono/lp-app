@@ -16,9 +16,11 @@ const Footer = () => {
   return (
     <>
       <div className="bg-yellow-400 h-[150px]">
-        <div className="flex justify-center text-2xl font-bold">©️2023.Inc</div>
+        <div className="flex justify-center text-2xl font-bold pt-5">
+          built in 2023
+        </div>
         {isMobile && (
-          <div className="flex justify-evenly my-10 font-bold text-xl">
+          <div className="flex justify-evenly mt-10 mb-5 font-bold text-xl">
             <div>
               <Link href="/news">予想</Link>
             </div>
