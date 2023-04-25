@@ -1,5 +1,5 @@
 import { Carousel, CarouselProps } from "@mantine/carousel";
-import { AspectRatio, BackgroundImage, Box, Image } from "@mantine/core";
+import { BackgroundImage } from "@mantine/core";
 import Autoplay, { AutoplayOptionsType } from "embla-carousel-autoplay";
 import { useMemo, useRef } from "react";
 
@@ -18,7 +18,7 @@ export const BackgroundImageSlider = ({
 }: BackgroundImageSliderProps) => {
   const autoplay = useRef(Autoplay({ delay }));
 
-  const plugins = useMemo(() => {
+  const plugins: any = useMemo(() => {
     return [isAutoPlay && autoplay.current];
   }, []);
 
