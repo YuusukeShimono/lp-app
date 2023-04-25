@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="">
+      <div className="bg-yellow-400">
         <div className="flex justify-center text-2xl font-bold">©️2023.Inc</div>
         {isMobile && (
           <div className="flex justify-evenly my-10 font-bold text-xl">

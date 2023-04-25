@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between h-[100px] mx-5 lg:mx-20 my-5 lg:my-10">
+      <div className="flex justify-between h-[120px] px-5 lg:px-20 py-5 lg:py-10 bg-blue-200">
         <IconContext.Provider value={{ size: "100px" }}>
           <div>
             <Link href="/">
@@ -31,10 +31,10 @@ const Header = () => {
               <Link href="/news">予想</Link>
             </div>
             <div className="mx-10">
-              <Link href="/">結果</Link>
+              <Link href="/result">結果</Link>
             </div>
             <div>
-              <Link href="/">連絡する</Link>
+              <Link href="/contact">連絡する</Link>
             </div>
           </div>
         )}

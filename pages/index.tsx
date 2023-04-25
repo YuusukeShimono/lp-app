@@ -14,7 +14,9 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-auto bg-green-300">
-        <BackgroundImageSlider images={images} />
+        <div className="py-10">
+          <BackgroundImageSlider images={images} />
+        </div>
         <div></div>
       </main>
       <Footer />
