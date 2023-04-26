@@ -33,9 +33,9 @@ const News = (props: NewsProps) => {
         <title>詳細ページ</title>
       </Head>
       <Header />
-      <div className="h-auto flex justify-center lg:justify-between bg-green-300">
-        <div className="py-5 lg:px-40 px-10">
-          <div className="mt-[10px]">
+      <main className="min-h-screen bg-green-300 py-[150px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
+        <div className="flex justify-center lg:justify-between">
+          <div className="lg:px-40 px-5">
             <div className="sm:w-[300px]">
               <ul>
                 {contents.map((content) => {
@@ -51,7 +51,7 @@ const News = (props: NewsProps) => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </>
   );

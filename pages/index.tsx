@@ -18,7 +18,7 @@ const Home = () => {
         <title>ホームページ</title>
       </Head>
       <Header />
-      <main className="h-[400px] bg-green-300">
+      <main className="min-h-screen bg-green-300 py-[150px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
         <div className="py-10">
           <BackgroundImageSlider images={images} />
         </div>
