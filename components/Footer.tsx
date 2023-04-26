@@ -18,7 +18,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="bg-yellow-400 h-[150px] w-[100%] fixed bottom-0">
+    <div className="bg-yellow-400 h-[130px] w-[100%] fixed bottom-0">
       <div className="flex justify-center text-xl font-bold pt-[10px]">
         built in 2023
       </div>

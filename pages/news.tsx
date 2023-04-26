@@ -33,7 +33,7 @@ const News = (props: NewsProps) => {
         <title>詳細ページ</title>
       </Head>
       <Header />
-      <main className="min-h-screen bg-green-300 py-[150px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
+      <main className="min-h-screen bg-green-300 pt-[150px] pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
         <div className="flex justify-center lg:justify-between">
           <div className="lg:px-40 px-5">
             <div className="sm:w-[300px]">
