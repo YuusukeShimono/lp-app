@@ -23,7 +23,7 @@ const Footer = () => {
         built in 2023
       </div>
       {isMobile && (
-        <div className="flex justify-evenly mt-[15px] mb-5 font-bold text-sm">
+        <div className="flex justify-evenly my-[5px] font-bold text-sm">
           <IconContext.Provider value={{ size: "50px" }}>
             <div>
               <Link href="/news">
