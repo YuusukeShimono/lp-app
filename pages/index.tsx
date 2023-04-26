@@ -15,10 +15,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>TOP</title>
+        <title>ホームページ</title>
       </Head>
       <Header />
-      <main className="h-auto bg-green-300">
+      <main className="h-[400px] bg-green-300">
         <div className="py-10">
           <BackgroundImageSlider images={images} />
         </div>

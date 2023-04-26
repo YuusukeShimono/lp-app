@@ -1,5 +1,9 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { IconContext } from "react-icons";
+import { FaEnvelopeOpenText } from "react-icons/fa";
+import { BsFolder2Open } from "react-icons/bs";
+import { TfiPencilAlt } from "react-icons/tfi";
 
 const Footer = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -16,20 +20,35 @@ const Footer = () => {
   return (
     <>
       <div className="bg-yellow-400 h-[150px]">
-        <div className="flex justify-center text-2xl font-bold pt-5">
+        <div className="flex justify-center text-xl font-bold pt-[10px]">
           built in 2023
         </div>
         {isMobile && (
-          <div className="flex justify-evenly mt-10 mb-5 font-bold text-xl">
-            <div>
-              <Link href="/news">予想</Link>
-            </div>
-            <div className="mx-10">
-              <Link href="/result">結果</Link>
-            </div>
-            <div>
-              <Link href="/contact">連絡する</Link>
-            </div>
+          <div className="flex justify-evenly mt-[15px] mb-5 font-bold text-sm">
+            <IconContext.Provider value={{ size: "50px" }}>
+              <div>
+                <Link href="/news">
+                  <TfiPencilAlt />
+                  予想確認
+                </Link>
+              </div>
+            </IconContext.Provider>
+            <IconContext.Provider value={{ size: "50px" }}>
+              <div className="mx-10">
+                <Link href="/result">
+                  <BsFolder2Open />
+                  結果確認
+                </Link>
+              </div>
+            </IconContext.Provider>
+            <IconContext.Provider value={{ size: "50px" }}>
+              <div>
+                <Link href="/contact">
+                  <FaEnvelopeOpenText />
+                  連絡する
+                </Link>
+              </div>
+            </IconContext.Provider>
           </div>
         )}
       </div>
