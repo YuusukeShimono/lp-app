@@ -11,7 +11,7 @@ const Contact = () => {
       <Header />
       <main className="min-h-screen bg-green-300 pt-[150px] pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
         <div className="text-2xl">メールでの問い合わせ</div>
-        <div className="text-red-700 my-10 text-xl font-bold hover:underline flex justify-center">
+        <div className="text-red-700 my-10 underline text-xl font-bold hover:underline flex justify-center">
           <a href="mailto:jungle379@gmail.com">メールはこちらをクリック</a>
         </div>
         <div className="text-sm">
