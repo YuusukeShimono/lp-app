@@ -1,4 +1,7 @@
 export const pagesPath = {
+  "atFirst": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/atFirst' as const, hash: url?.hash })
+  },
   "contact": {
     $url: (url?: { hash?: string }) => ({ pathname: '/contact' as const, hash: url?.hash })
   },
