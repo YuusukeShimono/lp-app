@@ -1,6 +1,8 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
+import Link from "next/link";
+import Balancer from "react-wrap-balancer";
 
 const Contact = () => {
   return (
@@ -15,7 +17,16 @@ const Contact = () => {
           <a href="mailto:jungle379@gmail.com">メールはこちらをクリック</a>
         </div>
         <div className="text-sm">
-          ※メーラーが起動しますので本文入力後、送信して下さい！
+          <Balancer>
+            ※メーラーが起動しますので本文入力後、送信して下さい！
+          </Balancer>
+        </div>
+        <div className="text-2xl mt-5">予想の参照先</div>
+        <div>
+          <Link href=""></Link>
+        </div>
+        <div>
+          <Link href=""></Link>
         </div>
       </main>
       <Footer />

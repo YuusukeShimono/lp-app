@@ -5,11 +5,11 @@ import Link from "next/link";
 
 const ITEMS = [
   {
-    href: "/",
+    href: "/result/2304",
     title: "4月",
   },
   {
-    href: "/",
+    href: "/result/2305",
     title: "5月",
   },
 ];

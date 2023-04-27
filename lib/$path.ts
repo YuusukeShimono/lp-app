@@ -12,7 +12,13 @@ export const pagesPath = {
     })
   },
   "result": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/result' as const, hash: url?.hash })
+    $url: (url?: { hash?: string }) => ({ pathname: '/result' as const, hash: url?.hash }),
+    "$2304": {
+      $url: (url?: { hash?: string }) => ({ pathname: '/result/2304' as const, hash: url?.hash })
+    },
+    "$2305": {
+      $url: (url?: { hash?: string }) => ({ pathname: '/result/2305' as const, hash: url?.hash })
+    }
   },
   $url: (url?: { hash?: string }) => ({ pathname: '/' as const, hash: url?.hash })
 }
