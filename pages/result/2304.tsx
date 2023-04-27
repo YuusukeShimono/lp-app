@@ -11,8 +11,12 @@ const Result04 = () => {
       <Header />
       <main className="min-h-screen bg-green-300 pt-[150px] pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
         <div className="text-2xl mx-5">23年4月の結果</div>
-        <div></div>
-        <div></div>
+        <div>単勝回収率</div>
+        <h1></h1>
+        <h2></h2>
+        <div>複勝回収率</div>
+        <h1></h1>
+        <h2></h2>
       </main>
       <Footer />
     </>

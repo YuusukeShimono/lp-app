@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="text-sm flex justify-center">
           <Balancer>※メーラーが自動で起動します！</Balancer>
         </div>
-        <div className="text-2xl mt-5 mx-5">予想の参照先(Twitter)</div>
+        {/* <div className="text-2xl mt-5 mx-5">予想の参照先(Twitter)</div>
         <div className="my-5 ml-10 font-bold text-sm underline">
           <Balancer>
             <Link href="https://twitter.com/GANMA71879454">
@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
         <div className="my-5 ml-10 font-bold text-sm underline">
           <Link href="/https://twitter.com/offrecoroom">②覆面馬主7号</Link>
-        </div>
+        </div> */}
       </main>
       <Footer />
     </>
