@@ -1,7 +1,12 @@
 import { client } from "@/libs/client";
 import Head from "next/head";
 
-const NewsId = (props: any) => {
+type NewsProps = {
+  title: string;
+  content: string;
+};
+
+const NewsId = (props: NewsProps) => {
   return (
     <>
       <Head>
