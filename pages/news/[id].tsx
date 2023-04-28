@@ -8,7 +8,7 @@ const NewsId = (props: any) => {
         <title>{props.title}</title>
       </Head>
       <div className="bg-pink-100 h-screen">
-        <h1>{props.title}</h1>
+        <div className="mb-5 font-bold text-xl">{props.title}</div>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
       </div>
     </>
