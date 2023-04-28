@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
-import Link from "next/link";
 import Balancer from "react-wrap-balancer";
 
 const Contact = () => {
@@ -19,18 +18,6 @@ const Contact = () => {
         <div className="text-sm flex justify-center">
           <Balancer>※メーラーが自動で起動します！</Balancer>
         </div>
-        {/* <div className="text-2xl mt-5 mx-5">予想の参照先(Twitter)</div>
-        <div className="my-5 ml-10 font-bold text-sm underline">
-          <Balancer>
-            <Link href="https://twitter.com/GANMA71879454">
-              ①邪推師GANMA
-              （チャンネル登録者数10万人超の競馬YouTuber＆競馬ブロガー）
-            </Link>
-          </Balancer>
-        </div>
-        <div className="my-5 ml-10 font-bold text-sm underline">
-          <Link href="/https://twitter.com/offrecoroom">②覆面馬主7号</Link>
-        </div> */}
       </main>
       <Footer />
     </>
