@@ -6,7 +6,7 @@ import Link from "next/link";
 const ITEMS = [
   {
     href: "/result/2304",
-    title: "4月",
+    title: "4月29,30日",
   },
   {
     href: "/result/2305",
