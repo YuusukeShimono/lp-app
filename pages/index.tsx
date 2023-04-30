@@ -23,25 +23,6 @@ const Home = () => {
         <div className="py-10">
           <BackgroundImageSlider images={images} />
         </div>
-        <div className="pb-5 px-[5px]" text-xl>
-          天皇賞(春)記者会見(別タブで開きます)
-        </div>
-        <div className="text-sm px-5">
-          <Link
-            href="https://www.youtube.com/watch?v=PbcqwoN8cys"
-            target="_blank"
-          >
-            天皇賞・記者会見①(タイトルホルダー)
-          </Link>
-        </div>
-        <div className="text-sm px-5 pt-[5px] pb-10">
-          <Link
-            href="https://www.youtube.com/watch?v=OYgoTZeqK94"
-            target="_blank"
-          >
-            天皇賞・記者会見②(アスクビクターモア)
-          </Link>
-        </div>
       </main>
       <Footer />
     </>
