@@ -1,5 +1,6 @@
 import { client } from "@/libs/client";
 import Head from "next/head";
+import GoodButton from "@/components/GoodButton";
 
 type NewsProps = {
   title: string;
@@ -13,7 +14,12 @@ const NewsId = (props: NewsProps) => {
         <title>{props.title}</title>
       </Head>
       <div className="bg-pink-100 min-h-screen h-auto">
-        <div className="mb-5 font-bold text-xl">{props.title}</div>
+        <div className="flex">
+          <div className="mb-5 font-bold text-xl">{props.title}</div>
+          <div className="mx-10">
+            <GoodButton />
+          </div>
+        </div>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
       </div>
     </>

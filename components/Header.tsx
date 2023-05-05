@@ -39,7 +39,7 @@ const Header = () => {
           </div>
         )}
         {isMobile && (
-          <div className="flex justify-evenly pr-5 py-10 font-bold text-sm">
+          <div className="flex justify-evenly underline pr-5 py-10 font-bold text-sm">
             <Link href="/atFirst">はじめに</Link>
           </div>
         )}
