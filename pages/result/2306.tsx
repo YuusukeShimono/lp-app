@@ -6,7 +6,7 @@ const Result06 = () => {
   return (
     <>
       <Head>
-        <title>23/05の結果</title>
+        <title>23/06の結果</title>
       </Head>
       <Header />
       <main className="min-h-screen bg-green-300 pt-[150px] pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
