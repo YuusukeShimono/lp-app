@@ -12,6 +12,10 @@ const ITEMS = [
     href: "/result/2305",
     title: "5月",
   },
+  {
+    href: "/result/2306",
+    title: "6月",
+  },
 ];
 
 const Result = () => {

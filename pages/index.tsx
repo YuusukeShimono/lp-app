@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { BackgroundImageSlider } from "@/components/Slider";
 import { staticPath } from "@/lib/$path";
-import Link from "next/link";
 
 const images = [
   staticPath.$1_jpeg,
