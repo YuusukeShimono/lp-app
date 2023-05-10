@@ -16,6 +16,10 @@ const ITEMS = [
     href: "/result/2306",
     title: "6月",
   },
+  {
+    href: "/result/2307",
+    title: "7月",
+  },
 ];
 
 const Result = () => {
@@ -26,7 +30,9 @@ const Result = () => {
       </Head>
       <Header />
       <main className="min-h-screen bg-green-300 pt-[150px] pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
-        <div className="text-2xl px-5 font-bold">月間結果</div>
+        <div className="text-2xl px-5 font-bold">
+          月間結果(単勝・複勝回収率)
+        </div>
         <div>
           {ITEMS.map((item) => {
             return (

@@ -5,6 +5,11 @@ export const pagesPath = {
   "contact": {
     $url: (url?: { hash?: string }) => ({ pathname: '/contact' as const, hash: url?.hash })
   },
+  "horse": {
+    "white": {
+      $url: (url?: { hash?: string }) => ({ pathname: '/horse/white' as const, hash: url?.hash })
+    }
+  },
   "news": {
     $url: (url?: { hash?: string }) => ({ pathname: '/news' as const, hash: url?.hash }),
     _id: (id: string | number) => ({

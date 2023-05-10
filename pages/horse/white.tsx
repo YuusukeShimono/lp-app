@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Balancer from "react-wrap-balancer";
 
-const amante = () => {
+const Amante = () => {
   return (
     <>
       <Head>
@@ -10,7 +10,7 @@ const amante = () => {
       <main className="min-h-screen overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
         <div className="text-2xl font-bold">アマンテビアンコ(2歳)</div>
         <div className="mt-10 mx-10 text-2xl">戦績</div>
-        <h1 className="mx-10 text-xl">0-0-0-0</h1>
+        <h1 className="mx-10 text-xl">0-0-0-0(新馬)</h1>
         <div className="mt-10 mx-10 text-2xl">直近の情報</div>
         <h1 className="mx-10 text-sm my-5">
           <Balancer>
@@ -26,4 +26,4 @@ const amante = () => {
   );
 };
 
-export default amante;
+export default Amante;
