@@ -37,6 +37,7 @@ export const pagesPath = {
 export type PagesPath = typeof pagesPath
 
 export const staticPath = {
+  _1_2_jpeg_icloud: '/.1 2.jpeg.icloud',
   $1_jpeg: '/1.jpeg',
   $2_jpeg: '/2.jpeg',
   $3_jpeg: '/3.jpeg',
