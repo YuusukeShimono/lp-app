@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>メール連絡ページ</title>
+        <title>メール連絡</title>
       </Head>
       <Header />
       <main className="min-h-screen bg-green-300 pt-[150px] pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">

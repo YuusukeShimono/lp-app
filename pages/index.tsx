@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>ホームページ</title>
+        <title>ホーム</title>
       </Head>
       <Header />
       <main className="md:min-h-screen bg-green-300 pt-[100px] pb-[100px] md:pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
