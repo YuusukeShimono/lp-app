@@ -38,11 +38,13 @@ const Header = () => {
             </div>
           </div>
         )}
-        {isMobile && (
-          <div className="flex justify-evenly underline pr-5 py-10 font-bold text-sm">
-            <Link href="/atFirst">はじめに</Link>
-          </div>
-        )}
+        {isMobile &&
+          typeof window !== "undefined" &&
+          window.location.pathname == "/" && (
+            <div className="flex justify-evenly underline pr-5 py-10 font-bold text-sm">
+              <Link href="/atFirst">はじめに</Link>
+            </div>
+          )}
       </div>
     </>
   );

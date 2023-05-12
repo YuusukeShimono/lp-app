@@ -16,10 +16,10 @@ const ITEMS = [
     href: "/result/2306",
     title: "6月",
   },
-  // {
-  //   href: "/result/2307",
-  //   title: "7月",
-  // },
+  {
+    href: "/result/2307",
+    title: "7月",
+  },
 ];
 
 const Result = () => {
