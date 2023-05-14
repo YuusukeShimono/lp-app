@@ -28,13 +28,13 @@ const Header = () => {
         {!isMobile && (
           <div className="flex justify-evenly my-10 font-bold text-xl">
             <div>
-              <Link href="/news">予想</Link>
+              <Link href="../footer/news">予想</Link>
             </div>
             <div className="mx-10">
-              <Link href="/result">結果</Link>
+              <Link href="../footer/result">結果</Link>
             </div>
             <div>
-              <Link href="/contact">連絡する</Link>
+              <Link href="../footer/contact">連絡する</Link>
             </div>
           </div>
         )}
@@ -42,7 +42,7 @@ const Header = () => {
           typeof window !== "undefined" &&
           window.location.pathname == "/" && (
             <div className="flex justify-evenly underline pr-5 py-10 font-bold text-sm">
-              <Link href="/atFirst">はじめに</Link>
+              <Link href="../header/atFirst">はじめに</Link>
             </div>
           )}
       </div>

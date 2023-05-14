@@ -1,23 +1,31 @@
 export const pagesPath = {
-  "atFirst": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/atFirst' as const, hash: url?.hash })
+  "footer": {
+    "contact": {
+      $url: (url?: { hash?: string }) => ({ pathname: '/footer/contact' as const, hash: url?.hash })
+    },
+    "news": {
+      $url: (url?: { hash?: string }) => ({ pathname: '/footer/news' as const, hash: url?.hash })
+    },
+    "result": {
+      $url: (url?: { hash?: string }) => ({ pathname: '/footer/result' as const, hash: url?.hash })
+    }
   },
-  "contact": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/contact' as const, hash: url?.hash })
+  "header": {
+    "atFirst": {
+      $url: (url?: { hash?: string }) => ({ pathname: '/header/atFirst' as const, hash: url?.hash })
+    }
   },
   "horse": {
-    "white": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/horse/white' as const, hash: url?.hash })
+    "amante": {
+      $url: (url?: { hash?: string }) => ({ pathname: '/horse/amante' as const, hash: url?.hash })
     }
   },
   "news": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/news' as const, hash: url?.hash }),
     _id: (id: string | number) => ({
       $url: (url?: { hash?: string }) => ({ pathname: '/news/[id]' as const, query: { id }, hash: url?.hash })
     })
   },
   "result": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/result' as const, hash: url?.hash }),
     "$2304": {
       $url: (url?: { hash?: string }) => ({ pathname: '/result/2304' as const, hash: url?.hash })
     },

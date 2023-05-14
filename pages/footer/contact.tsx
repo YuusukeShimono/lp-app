@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
         <div className="text-2xl mx-5 mt-10">持ち馬の情報</div>
         <li className="mx-10 my-5">
-          <Link href="/horse/white">アマンテビアンコ</Link>
+          <Link href="/horse/amante">アマンテビアンコ</Link>
         </li>
       </main>
       <Footer />

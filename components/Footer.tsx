@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="flex justify-evenly my-[5px] font-bold text-sm">
           <IconContext.Provider value={{ size: "50px" }}>
             <div>
-              <Link href="/news">
+              <Link href="../footer/news">
                 <TfiPencilAlt />
                 予想確認
               </Link>
@@ -34,7 +34,7 @@ const Footer = () => {
           </IconContext.Provider>
           <IconContext.Provider value={{ size: "50px" }}>
             <div className="mx-10">
-              <Link href="/result">
+              <Link href="../footer/result">
                 <BsFolder2Open />
                 結果確認
               </Link>
@@ -42,7 +42,7 @@ const Footer = () => {
           </IconContext.Provider>
           <IconContext.Provider value={{ size: "50px" }}>
             <div>
-              <Link href="/contact">
+              <Link href="../footer/contact">
                 <FaEnvelopeOpenText />
                 連絡する
               </Link>
