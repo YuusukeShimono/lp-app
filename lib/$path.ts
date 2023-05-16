@@ -3,9 +3,6 @@ export const pagesPath = {
     "contact": {
       $url: (url?: { hash?: string }) => ({ pathname: '/footer/contact' as const, hash: url?.hash })
     },
-    "news": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/footer/news' as const, hash: url?.hash })
-    },
     "result": {
       $url: (url?: { hash?: string }) => ({ pathname: '/footer/result' as const, hash: url?.hash })
     }
@@ -21,6 +18,7 @@ export const pagesPath = {
     }
   },
   "news": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/news' as const, hash: url?.hash }),
     _id: (id: string | number) => ({
       $url: (url?: { hash?: string }) => ({ pathname: '/news/[id]' as const, query: { id }, hash: url?.hash })
     })
