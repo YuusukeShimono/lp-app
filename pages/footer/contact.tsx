@@ -20,7 +20,7 @@ const Contact = () => {
                 <div className="text-sm flex justify-center">
                     ※メーラーが自動で起動します！
                 </div>
-                <div className="text-2xl mx-5 mt-10">持ち馬の情報</div>
+                <div className="text-2xl mx-5 mt-10">持ち馬の最新情報</div>
                 <li className="mx-10 my-5">
                     <Link href="/horse/amante">アマンテビアンコ</Link>
                 </li>
