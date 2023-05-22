@@ -43,11 +43,9 @@ export const pagesPath = {
 export type PagesPath = typeof pagesPath
 
 export const staticPath = {
-  $1_2_jpeg: '/1 2.jpeg',
   $1_jpeg: '/1.jpeg',
   $2_jpeg: '/2.jpeg',
   $3_jpeg: '/3.jpeg',
-  $4_jpeg: '/4.jpeg',
   favicon_ico: '/favicon.ico',
   next_svg: '/next.svg',
   vercel_svg: '/vercel.svg'

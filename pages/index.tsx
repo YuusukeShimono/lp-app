@@ -4,12 +4,7 @@ import Footer from '@/components/Footer';
 import { BackgroundImageSlider } from '@/components/Slider';
 import { staticPath } from '@/lib/$path';
 
-const images = [
-    staticPath.$1_jpeg,
-    staticPath.$2_jpeg,
-    staticPath.$3_jpeg,
-    staticPath.$4_jpeg,
-];
+const images = [staticPath.$1_jpeg, staticPath.$2_jpeg, staticPath.$3_jpeg];
 
 const Home = () => {
     return (
@@ -22,6 +17,8 @@ const Home = () => {
                 <div className="py-10">
                     <BackgroundImageSlider images={images} />
                 </div>
+                <div></div>
+                <div></div>
             </main>
             <Footer />
         </>
