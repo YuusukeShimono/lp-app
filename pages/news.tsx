@@ -33,7 +33,7 @@ const News = (props: NewsProps) => {
                 <title>予想</title>
             </Head>
             <Header />
-            <main className="md:min-h-screen bg-green-300 pt-[150px] pb-[35px] md:pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
+            <main className="min-h-screen bg-green-300 pt-[150px] pb-[35px] md:pb-[130px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
                 <div className="flex justify-center lg:justify-between">
                     <div className="lg:px-40 px-5">
                         <div className="sm:w-[300px]">
