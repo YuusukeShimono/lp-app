@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { BackgroundImageSlider } from '@/components/Slider';
 import { staticPath } from '@/lib/$path';
+import Link from 'next/link';
 
 const images = [staticPath.$1_jpeg, staticPath.$2_jpeg, staticPath.$3_jpeg];
 
@@ -17,8 +18,10 @@ const Home = () => {
                 <div className="py-10">
                     <BackgroundImageSlider images={images} />
                 </div>
-                <div></div>
-                <div></div>
+                <div className="mx-10 text-2xl">5/24 大井記念</div>
+                <div className="mx-10 mt-5">
+                    <Link href="/">レース映像</Link>
+                </div>
             </main>
             <Footer />
         </>
