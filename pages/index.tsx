@@ -5,7 +5,12 @@ import { BackgroundImageSlider } from '@/components/Slider';
 import { staticPath } from '@/lib/$path';
 import Link from 'next/link';
 
-const images = [staticPath.$1_jpeg, staticPath.$2_jpeg, staticPath.$3_jpeg];
+const images = [
+    staticPath.$1_jpeg,
+    staticPath.$2_jpeg,
+    staticPath.$3_jpeg,
+    staticPath.$4_jpeg,
+];
 
 const Home = () => {
     return (
