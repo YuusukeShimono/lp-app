@@ -23,10 +23,6 @@ const Home = () => {
                 <div className="py-10">
                     <BackgroundImageSlider images={images} />
                 </div>
-                <div className="mx-10 text-2xl">5/24 大井記念</div>
-                <div className="mx-10 mt-5">
-                    <Link href="/">レース映像</Link>
-                </div>
             </main>
             <Footer />
         </>
