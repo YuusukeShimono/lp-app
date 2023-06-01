@@ -9,7 +9,7 @@ const Amante = () => {
             </Head>
             <main className="min-h-screen overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100">
                 <div className="text-2xl font-bold mt-5">
-                    アマンテビアンコ(2歳)
+                    アマンテビアンコ(2歳),6/17東京ダート1400m?
                 </div>
                 <div className="mt-10 mx-10 text-2xl">戦績</div>
                 <h1 className="mx-10 text-xl">0-0-0-0(新馬)</h1>
