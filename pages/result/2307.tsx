@@ -13,10 +13,10 @@ const Result07 = () => {
                 <div className="text-2xl mx-5">23年7月の結果</div>
                 <div className="mx-10 font-bold">単勝回収率</div>
                 <h1 className="mx-10">4000-3220</h1>
-                <h2 className="mx-10">回収率:84%</h2>
+                <h2 className="mx-10">回収率:81%</h2>
                 <div className="mt-10 mx-10 font-bold">複勝回収率</div>
-                <h1 className="mx-10">4000-3580</h1>
-                <h2 className="mx-10">回収率:98%</h2>
+                <h1 className="mx-10">4000-3720</h1>
+                <h2 className="mx-10">回収率:93%</h2>
             </main>
             <Footer />
         </>
