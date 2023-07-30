@@ -1,53 +1,27 @@
 export const pagesPath = {
-  "footer": {
-    "contact": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/footer/contact' as const, hash: url?.hash })
-    },
-    "result": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/footer/result' as const, hash: url?.hash })
-    }
-  },
-  "header": {
-    "atFirst": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/header/atFirst' as const, hash: url?.hash })
-    }
-  },
-  "horse": {
-    "amante": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/horse/amante' as const, hash: url?.hash })
-    }
-  },
-  "news": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/news' as const, hash: url?.hash }),
-    _id: (id: string | number) => ({
-      $url: (url?: { hash?: string }) => ({ pathname: '/news/[id]' as const, query: { id }, hash: url?.hash })
-    })
-  },
-  "result": {
-    "$2304": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/result/2304' as const, hash: url?.hash })
-    },
-    "$2305": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/result/2305' as const, hash: url?.hash })
-    },
-    "$2306": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/result/2306' as const, hash: url?.hash })
-    },
-    "$2307": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/result/2307' as const, hash: url?.hash })
-    },
-    "$2308": {
-      $url: (url?: { hash?: string }) => ({ pathname: '/result/2308' as const, hash: url?.hash })
-    }
-  },
   $url: (url?: { hash?: string }) => ({ pathname: '/' as const, hash: url?.hash })
 }
 
 export type PagesPath = typeof pagesPath
 
 export const staticPath = {
-  $1_jpeg: '/1.jpeg',
-  $2_jpeg: '/2.jpeg',
+  Images: {
+    FV_png: '/Images/FV.png',
+    Frame_png: '/Images/Frame.png',
+    Framer0_png: '/Images/Framer0.png',
+    button_png: '/Images/button.png',
+    catch_png: '/Images/catch.png',
+    company_png: '/Images/company.png',
+    flow_png: '/Images/flow.png',
+    inner_png: '/Images/inner.png',
+    line_png: '/Images/line.png',
+    logo_png: '/Images/logo.png',
+    onayami_png: '/Images/onayami.png',
+    title_png: '/Images/title.png',
+    tokutyo_png: '/Images/tokutyo.png',
+    word_png: '/Images/word.png',
+    解決_png: '/Images/解決.png'
+  },
   favicon_ico: '/favicon.ico',
   next_svg: '/next.svg',
   vercel_svg: '/vercel.svg'
