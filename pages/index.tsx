@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Image from 'next/image';
 import Sidebar from '../components/Sidebar';
+import { Checkbox, Input } from '@mantine/core';
 
 const Home = () => {
     return (
@@ -99,7 +100,7 @@ const Home = () => {
                                 height={1000}
                             />
                         </div>
-                        <div className="flex justify-center">
+                        <div className="flex justify-center mt-16 mb-[75px]">
                             <button>
                                 <Image
                                     src="/Images/button.png"
@@ -122,7 +123,6 @@ const Home = () => {
                             </button>
                         </div>
                         <div className="h-[842px] w-[852px] bg-blue-700"></div>
-                        <div className="h-[998px] w-[847px]"></div>
                         <div className="flex justify-center">
                             <Image
                                 src="/Images/flow.png"
@@ -140,6 +140,97 @@ const Home = () => {
                                 width={852}
                                 height={1000}
                             />
+                        </div>
+                        <div className="h-[998px] w-[847px]">
+                            <div className="mx-[124px] mt-24 flex justify-center items-center">
+                                <h1 className="text-[38px] text-blue-700 w-[230px]">
+                                    お問い合わせ
+                                </h1>
+                            </div>
+                            <div className="mx-[124px] mt-6 flex justify-center items-center">
+                                <h2 className="w-[606px] text-[24px] text-blue-700">
+                                    下記フォームへ必要事項をご記入の上、送信ください。
+                                </h2>
+                            </div>
+                            <div className="mt-[41px] h-[87px] flex justify-center items-center">
+                                <h3 className="w-[368px] text-[16px]">
+                                    フルリモート、業務委託、フレキシブルな働き方で
+                                    優秀な即戦力IT人材をお探しの企業様は、
+                                    <br />
+                                    ぜひお気軽にお問い合わせください。
+                                </h3>
+                            </div>
+                            <div className="h-[483px] w-[555px] mx-auto p-4 mt-[41px] flex flex-col items-center">
+                                <div className="flex justify-center items-center mb-4">
+                                    <input
+                                        className="h-[50px] w-[243px] border-2 rounded mr-[33px]"
+                                        placeholder="姓"
+                                    />
+                                    <input
+                                        className="my-[14px] h-[50px] w-[243px] border-2 rounded"
+                                        placeholder="名"
+                                    />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <input
+                                        className="h-[50px] w-[519px] border-2 rounded"
+                                        placeholder="会社名"
+                                    />
+                                </div>
+                                <div className="my-[14px] flex justify-center items-center">
+                                    <input
+                                        className="h-[50px] w-[519px] border-2 rounded"
+                                        placeholder="会社のメールアドレス"
+                                    />
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <input
+                                        className="h-[50px] w-[519px] border-2 rounded"
+                                        placeholder="電話番号(ハイフンなし)"
+                                    />
+                                </div>
+                                <div className="my-[14px] flex justify-center items-center">
+                                    <Input
+                                        component="select"
+                                        className="h-[50px] w-[519px] border-2 rounded"
+                                    >
+                                        <option value="-">
+                                            部門を選択してください
+                                        </option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </Input>
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <Input
+                                        component="select"
+                                        className="mb-[14px] h-[50px] w-[519px] border-2 rounded"
+                                    >
+                                        <option value="-">
+                                            役職を選択してください
+                                        </option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </Input>
+                                </div>
+                                <div className="my-[15px] flex items-start">
+                                    <Checkbox label="プライバシーポリシーに同意する" />
+                                </div>
+                                <div className="mt-[23px] mb-[41px] text-[14px]">
+                                    プライバシーポリシーに同意の上、送信ください。
+                                </div>
+                                <div className="flex justify-center">
+                                    <button>
+                                        <Image
+                                            src="/Images/button.png"
+                                            objectFit="cover"
+                                            alt=""
+                                            width={256}
+                                            height={50}
+                                        />
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </main>
                     <Footer />
