@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Image from 'next/image';
 import Sidebar from '../components/Sidebar';
 import { Checkbox, Input } from '@mantine/core';
+import { Carousel } from '@mantine/carousel';
 
 const Home = () => {
     return (
@@ -122,7 +123,94 @@ const Home = () => {
                                 />
                             </button>
                         </div>
-                        <div className="h-[842px] w-[852px] bg-blue-700"></div>
+                        <div className="h-[842px] w-[852px] bg-blue-700">
+                            <div className="flex justify-center items-center">
+                                <h1 className="mt-20 text-[16px] text-[#FFAF96]">
+                                    Recruitment
+                                </h1>
+                            </div>
+                            <div className="flex justify-center items-center mb-[41px]">
+                                <h1 className="mt-[28px] text-white text-[38px] font-bold">
+                                    事例紹介
+                                </h1>
+                            </div>
+                            <Carousel
+                                slideSize="70%"
+                                height={200}
+                                slideGap="md"
+                            >
+                                <Carousel.Slide>1</Carousel.Slide>
+                                <Carousel.Slide>2</Carousel.Slide>
+                                <Carousel.Slide>3</Carousel.Slide>
+                                {/* ...other slides */}
+                            </Carousel>
+                        </div>
+                        <div className="h-[998px] bg-white">
+                            <div className="flex justify-center items-center">
+                                <h1 className="mt-20 text-[16px] text-[#F4511E]">
+                                    Comparison
+                                </h1>
+                            </div>
+                            <div className="flex justify-center items-center mb-[24px]">
+                                <h1 className="mt-[28px] text-[#0036A8] text-[38px] font-bold">
+                                    他社比較
+                                </h1>
+                            </div>
+                            <div className="flex justify-center items-center mb-[24px]">
+                                <h1 className="h-12 mb-15 w-[412px] text-[16px] font-bold">
+                                    ここにテキストが入ります。ここにテキストが入ります。
+                                    ここにテキストが入ります。ここにテキストが入ります。
+                                </h1>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <h1 className='h-[60px] w-[200px] bg-[#DADADA]'></h1>
+                                <h1 className='h-[60px] w-[250px] bg-[#0036A8]'>
+                                    <h2 className='text-white text-[24px] justify-center flex items-center mt-[20px]'>LABOGY</h2>
+                                    </h1>
+                                <h1 className='h-[60px] w-[250px] bg-[#DADADA]'><h2 className='text-[24px] flex justify-center items-center my-[12px]'>他社</h2></h1>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
+                                    </h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
+                                    </h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
+                                    </h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
+                                    </h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
+                                    </h1>
+                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            </div>
+                            <div className="mt-10 flex justify-center">
+                                <button>
+                                    <Image
+                                        src="/Images/button.png"
+                                        objectFit="cover"
+                                        alt=""
+                                        width={256}
+                                        height={50}
+                                    />
+                                </button>
+                            </div>
+                        </div>
                         <div className="flex justify-center">
                             <Image
                                 src="/Images/flow.png"
