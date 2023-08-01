@@ -42,20 +42,20 @@ const Sidebar = () => {
                         placeholder="電話番号(ハイフンなし)"
                     />
                 </div>
-                <div className="my-[14px] flex justify-center items-center">
+                <div className="mt-[14px] flex justify-center items-center h-[50px] w-[300px] mx-[10px]">
                     <Input
                         component="select"
-                        className="h-[50px] w-[300px] border-2 rounded"
+                        className="h-[50px] w-full border-1 rounded"
                     >
                         <option value="-">部門を選択してください</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                     </Input>
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="mt-[4px] flex justify-center items-center mb-[14px] h-[50px] w-[300px] mx-[10px]">
                     <Input
                         component="select"
-                        className="mb-[14px] h-[50px] w-[300px] border-2 rounded"
+                        className="h-[50px] w-full border-1 rounded"
                     >
                         <option value="-">役職を選択してください</option>
                         <option value="1">1</option>

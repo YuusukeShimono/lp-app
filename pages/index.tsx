@@ -162,42 +162,43 @@ const Home = () => {
                                     ここにテキストが入ります。ここにテキストが入ります。
                                 </h1>
                             </div>
-                            <div className='flex justify-center items-center'>
-                                <h1 className='h-[60px] w-[200px] bg-[#DADADA]'></h1>
-                                <h1 className='h-[60px] w-[250px] bg-[#0036A8]'>
-                                    <h2 className='text-white text-[24px] justify-center flex items-center mt-[20px]'>LABOGY</h2>
-                                    </h1>
-                                <h1 className='h-[60px] w-[250px] bg-[#DADADA]'><h2 className='text-[24px] flex justify-center items-center my-[12px]'>他社</h2></h1>
+                            <div className="flex justify-center items-center">
+                                <h1 className="h-[60px] w-[200px] bg-[#DADADA]"></h1>
+                                <h1 className="h-[60px] w-[250px] bg-[#0036A8]">
+                                    <p className="text-white text-[24px] justify-center flex items-center mt-[11px]">
+                                        LABOGY
+                                    </p>
+                                </h1>
+                                <h1 className="h-[60px] w-[250px] bg-[#DADADA]">
+                                    <h2 className="text-[24px] flex justify-center items-center my-[12px]">
+                                        他社
+                                    </h2>
+                                </h1>
                             </div>
-                            <div className='flex justify-center items-center'>
-                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
-                                    </h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            <div className="flex justify-center items-center">
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
                             </div>
-                            <div className='flex justify-center items-center'>
-                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
-                                    </h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            <div className="flex justify-center items-center">
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
                             </div>
-                            <div className='flex justify-center items-center'>
-                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
-                                    </h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            <div className="flex justify-center items-center">
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
                             </div>
-                            <div className='flex justify-center items-center'>
-                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
-                                    </h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            <div className="flex justify-center items-center">
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
                             </div>
-                            <div className='flex justify-center items-center'>
-                                <h1 className='h-[92px] w-[200px] bg-[#F8F7F6]'></h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#D6D3D0]'>
-                                    </h1>
-                                <h1 className='h-[92px] w-[250px] bg-[#F8F7F6]'></h1>
+                            <div className="flex justify-center items-center">
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-b-[#0036A8] border-2"></h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
                             </div>
                             <div className="mt-10 flex justify-center">
                                 <button>
@@ -277,10 +278,10 @@ const Home = () => {
                                         placeholder="電話番号(ハイフンなし)"
                                     />
                                 </div>
-                                <div className="my-[14px] flex justify-center items-center">
+                                <div className="my-[14px] flex justify-center items-center h-[50px] w-[519px] ">
                                     <Input
                                         component="select"
-                                        className="h-[50px] w-[519px] border-2 rounded"
+                                        className="border-1 rounded h-full w-full"
                                     >
                                         <option value="-">
                                             部門を選択してください
@@ -289,10 +290,10 @@ const Home = () => {
                                         <option value="2">2</option>
                                     </Input>
                                 </div>
-                                <div className="flex justify-center items-center">
+                                <div className="flex justify-center items-center h-[50px] w-[519px] mb-[14px]">
                                     <Input
                                         component="select"
-                                        className="mb-[14px] h-[50px] w-[519px] border-2 rounded"
+                                        className="h-full w-full border-1 rounded"
                                     >
                                         <option value="-">
                                             役職を選択してください
