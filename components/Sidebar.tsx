@@ -62,10 +62,10 @@ const Sidebar = () => {
                         <option value="2">2</option>
                     </Input>
                 </div>
-                <div className="my-[8px] flex items-start">
+                <div className="my-[8px] flex justify-start">
                     <Checkbox label="プライバシーポリシーに同意する" />
                 </div>
-                <div className="mt-[8px] mb-[10px] text-[14px]">
+                <div className="mt-[8px] mb-[10px] text-[14px] flex justify-start">
                     プライバシーポリシーに同意の上、送信ください。
                 </div>
                 <div className="flex justify-center items-center">

@@ -135,13 +135,37 @@ const Home = () => {
                                 </h1>
                             </div>
                             <Carousel
-                                slideSize="70%"
-                                height={200}
-                                slideGap="md"
+                                slideSize="40%"
+                                height={500}
+                                slideGap="sm"
                             >
-                                <Carousel.Slide>1</Carousel.Slide>
-                                <Carousel.Slide>2</Carousel.Slide>
-                                <Carousel.Slide>3</Carousel.Slide>
+                                <Carousel.Slide>
+                                    <Image
+                                        src="/Images/事例紹介カード01.png"
+                                        objectFit="cover"
+                                        alt=""
+                                        width={300}
+                                        height={499}
+                                    />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <Image
+                                        src="/Images/事例紹介カード02.png"
+                                        objectFit="cover"
+                                        alt=""
+                                        width={300}
+                                        height={499}
+                                    />
+                                </Carousel.Slide>
+                                <Carousel.Slide>
+                                    <Image
+                                        src="/Images/事例紹介カード03.png"
+                                        objectFit="cover"
+                                        alt=""
+                                        width={300}
+                                        height={499}
+                                    />
+                                </Carousel.Slide>
                                 {/* ...other slides */}
                             </Carousel>
                         </div>
@@ -169,36 +193,66 @@ const Home = () => {
                                         LABOGY
                                     </p>
                                 </h1>
-                                <h1 className="h-[60px] w-[250px] bg-[#DADADA]">
-                                    <h2 className="text-[24px] flex justify-center items-center my-[12px]">
+                                <div className="h-[60px] w-[250px] bg-[#DADADA]">
+                                    <h1 className="text-[24px] flex justify-center items-center my-[12px]">
                                         他社
-                                    </h2>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]">
+                                    ここにテキスト
                                 </h1>
                             </div>
                             <div className="flex justify-center items-center">
-                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
                             </div>
                             <div className="flex justify-center items-center">
-                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
                             </div>
                             <div className="flex justify-center items-center">
-                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
                             </div>
                             <div className="flex justify-center items-center">
-                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-2"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
-                            </div>
-                            <div className="flex justify-center items-center">
-                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-b-[#0036A8] border-2"></h1>
-                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]"></h1>
+                                <h1 className="h-[92px] w-[200px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#D6D3D0] border-x-[#0036A8] border-b-[#0036A8] border-2">
+                                    ここにテキスト
+                                </h1>
+                                <h1 className="h-[92px] w-[250px] bg-[#F8F7F6]">
+                                    ここにテキスト
+                                </h1>
                             </div>
                             <div className="mt-10 flex justify-center">
                                 <button>
@@ -249,7 +303,7 @@ const Home = () => {
                                     ぜひお気軽にお問い合わせください。
                                 </h3>
                             </div>
-                            <div className="h-[483px] w-[555px] mx-auto p-4 mt-[41px] flex flex-col items-center">
+                            <div className="h-[420px] w-[555px] mx-auto p-4 mt-[41px] flex flex-col items-center">
                                 <div className="flex justify-center items-center mb-4">
                                     <input
                                         className="h-[50px] w-[243px] border-2 rounded mr-[33px]"
@@ -278,7 +332,7 @@ const Home = () => {
                                         placeholder="電話番号(ハイフンなし)"
                                     />
                                 </div>
-                                <div className="my-[14px] flex justify-center items-center h-[50px] w-[519px] ">
+                                <div className="my-[14px] flex justify-center items-center h-[50px] w-[519px]">
                                     <Input
                                         component="select"
                                         className="border-1 rounded h-full w-full"
@@ -290,7 +344,7 @@ const Home = () => {
                                         <option value="2">2</option>
                                     </Input>
                                 </div>
-                                <div className="flex justify-center items-center h-[50px] w-[519px] mb-[14px]">
+                                <div className="flex justify-center items-center h-[50px] w-[519px]">
                                     <Input
                                         component="select"
                                         className="h-full w-full border-1 rounded"
@@ -302,10 +356,12 @@ const Home = () => {
                                         <option value="2">2</option>
                                     </Input>
                                 </div>
-                                <div className="my-[15px] flex items-start">
+                            </div>
+                            <div className="w-[555px] mx-auto px-4">
+                                <div className="mb-[15px] flex justify-start text-[16px]">
                                     <Checkbox label="プライバシーポリシーに同意する" />
                                 </div>
-                                <div className="mt-[23px] mb-[41px] text-[14px]">
+                                <div className="mt-[23px] mb-[41px] text-[14px] flex justify-start">
                                     プライバシーポリシーに同意の上、送信ください。
                                 </div>
                                 <div className="flex justify-center">
