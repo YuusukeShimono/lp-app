@@ -4,7 +4,8 @@ import Footer from '../components/Footer';
 import Image from 'next/image';
 import Sidebar from '../components/Sidebar';
 import { Checkbox, Input } from '@mantine/core';
-import { Carousel } from '@mantine/carousel';
+import Link from 'next/link';
+import Carousels from '@/components/Carousel';
 
 const Home = () => {
     return (
@@ -83,7 +84,7 @@ const Home = () => {
                                 height={1000}
                             />
                         </div>
-                        <div className="flex justify-center">
+                        <div className="flex justify-center mt-20">
                             <Image
                                 src="/Images/title.png"
                                 objectFit="cover"
@@ -134,40 +135,7 @@ const Home = () => {
                                     事例紹介
                                 </h1>
                             </div>
-                            <Carousel
-                                slideSize="40%"
-                                height={500}
-                                slideGap="sm"
-                            >
-                                <Carousel.Slide>
-                                    <Image
-                                        src="/Images/事例紹介カード01.png"
-                                        objectFit="cover"
-                                        alt=""
-                                        width={300}
-                                        height={499}
-                                    />
-                                </Carousel.Slide>
-                                <Carousel.Slide>
-                                    <Image
-                                        src="/Images/事例紹介カード02.png"
-                                        objectFit="cover"
-                                        alt=""
-                                        width={300}
-                                        height={499}
-                                    />
-                                </Carousel.Slide>
-                                <Carousel.Slide>
-                                    <Image
-                                        src="/Images/事例紹介カード03.png"
-                                        objectFit="cover"
-                                        alt=""
-                                        width={300}
-                                        height={499}
-                                    />
-                                </Carousel.Slide>
-                                {/* ...other slides */}
-                            </Carousel>
+                            <Carousels />
                         </div>
                         <div className="h-[998px] bg-white">
                             <div className="flex justify-center items-center">
@@ -286,12 +254,12 @@ const Home = () => {
                         </div>
                         <div className="h-[998px] w-[847px]">
                             <div className="mx-[124px] mt-24 flex justify-center items-center">
-                                <h1 className="text-[38px] text-blue-700 w-[230px]">
+                                <h1 className="text-[38px] text-[#0036A8] w-[230px]">
                                     お問い合わせ
                                 </h1>
                             </div>
                             <div className="mx-[124px] mt-6 flex justify-center items-center">
-                                <h2 className="w-[606px] text-[24px] text-blue-700">
+                                <h2 className="w-[606px] text-[24px] text-[#0036A8]">
                                     下記フォームへ必要事項をご記入の上、送信ください。
                                 </h2>
                             </div>
@@ -361,8 +329,15 @@ const Home = () => {
                                 <div className="mb-[15px] flex justify-start text-[16px]">
                                     <Checkbox label="プライバシーポリシーに同意する" />
                                 </div>
-                                <div className="mt-[23px] mb-[41px] text-[14px] flex justify-start">
-                                    プライバシーポリシーに同意の上、送信ください。
+                                <div className="flex">
+                                    <div className="mt-[23px] mb-[41px] text-[#0071C1] text-[14px] flex justify-start">
+                                        <Link href="/">
+                                            プライバシーポリシー
+                                        </Link>
+                                    </div>
+                                    <div className="mt-[23px] mb-[41px] text-[14px]">
+                                        に同意の上、送信ください。
+                                    </div>
                                 </div>
                                 <div className="flex justify-center">
                                     <button>

@@ -25,10 +25,7 @@ export const staticPath = {
     事例紹介カード02_png: '/Images/事例紹介カード02.png',
     事例紹介カード03_png: '/Images/事例紹介カード03.png',
     解決_png: '/Images/解決.png'
-  },
-  favicon_ico: '/favicon.ico',
-  next_svg: '/next.svg',
-  vercel_svg: '/vercel.svg'
+  }
 } as const
 
 export type StaticPath = typeof staticPath
