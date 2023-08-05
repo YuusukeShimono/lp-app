@@ -14,10 +14,7 @@ const Sidebar = () => {
                 <div className="font-medium w-[300px] mt-[30px] text-[12px]">
                     下記フォームへ必要事項をご記入の上、送信ください。
                 </div>
-                <form
-                    action="https://lpsite.form.newt.so/v1/v-tkHcbow"
-                    method="post"
-                >
+                <form action="" method="post">
                     <div className="flex justify-center items-center mb-1">
                         <input
                             className="h-[50px] w-[140px] border-2 rounded mr-[20px]"

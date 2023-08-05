@@ -9,7 +9,7 @@ const Header = () => {
                     <Link href="/">
                         <Image
                             src="/Images/logo.png"
-                            objectFit="cover" // 画像が親要素にフィットするようにする
+                            objectFit="cover"
                             alt=""
                             width={489}
                             height={81}
@@ -20,7 +20,7 @@ const Header = () => {
                     <button style={{ display: 'block', margin: '8px 0' }}>
                         <Image
                             src="/Images/button.png"
-                            objectFit="cover" // 画像が親要素にフィットするようにする
+                            objectFit="cover"
                             alt=""
                             width={256}
                             height={50}

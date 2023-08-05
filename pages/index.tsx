@@ -270,10 +270,7 @@ const Home = () => {
                                 </h3>
                             </div>
                             <div>
-                                <form
-                                    action="https://lpsite.form.newt.so/v1/v-tkHcbow"
-                                    method="post"
-                                >
+                                <form action="" method="post">
                                     <div className="h-[420px] w-[555px] mx-auto p-4 mt-[41px] flex flex-col items-center">
                                         <div className="flex justify-center items-center mb-4">
                                             <input
@@ -379,9 +376,7 @@ const Home = () => {
                     </main>
                     <Footer />
                 </div>
-                <div className="">
-                    <Sidebar />
-                </div>
+                <Sidebar />
             </div>
         </>
     );
