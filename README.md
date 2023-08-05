@@ -18,13 +18,13 @@
 　参照:https://www.newt.so/docs/tutorials/contact-form-in-nextjs
 
 変数一覧：
-姓:firstName
-名:lastName
-会社:company
-メールアドレス:email
-電話番号:phoneNumber
-部門:department
-役職:position
+姓:firstName <br />
+名:lastName <br />
+会社:company <br />
+メールアドレス:email <br />
+電話番号:phoneNumber <br />
+部門:department <br />
+役職:position <br />
 
 
 4.index.tsxの274行目の「action=""」とcomponents-sidebar.tsxの18行目の「action=""」に
