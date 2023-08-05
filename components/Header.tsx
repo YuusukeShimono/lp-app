@@ -17,10 +17,7 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="ml-[29px] mr-8 my-10">
-                    <button
-                        type="submit"
-                        style={{ display: 'block', margin: '8px 0' }}
-                    >
+                    <button style={{ display: 'block', margin: '8px 0' }}>
                         <Image
                             src="/Images/button.png"
                             objectFit="cover" // 画像が親要素にフィットするようにする

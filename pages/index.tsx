@@ -103,7 +103,7 @@ const Home = () => {
                             />
                         </div>
                         <div className="flex justify-center mt-16 mb-[75px]">
-                            <button type="submit">
+                            <button>
                                 <Image
                                     src="/Images/button.png"
                                     objectFit="cover"
@@ -221,7 +221,7 @@ const Home = () => {
                                 </h1>
                             </div>
                             <div className="mt-10 flex justify-center">
-                                <button type="submit">
+                                <button>
                                     <Image
                                         src="/Images/button.png"
                                         objectFit="cover"
@@ -269,109 +269,111 @@ const Home = () => {
                                     ぜひお気軽にお問い合わせください。
                                 </h3>
                             </div>
-                            <div className="h-[420px] w-[555px] mx-auto p-4 mt-[41px] flex flex-col items-center">
+                            <div>
                                 <form
-                                    action="https://lpsite.form.newt.so/v1/2Dv_UrJgX"
+                                    action="https://lpsite.form.newt.so/v1/v-tkHcbow"
                                     method="post"
                                 >
-                                    <div className="flex justify-center items-center mb-4">
-                                        <input
-                                            className="h-[50px] w-[243px] border-2 rounded mr-[33px]"
-                                            placeholder="姓"
-                                            name="firstName"
-                                            id="firstName"
-                                            type="text"
-                                        />
-                                        <input
-                                            className="my-[14px] h-[50px] w-[243px] border-2 rounded"
-                                            placeholder="名"
-                                            name="lastName"
-                                            id="lastName"
-                                            type="text"
-                                        />
+                                    <div className="h-[420px] w-[555px] mx-auto p-4 mt-[41px] flex flex-col items-center">
+                                        <div className="flex justify-center items-center mb-4">
+                                            <input
+                                                className="h-[50px] w-[243px] border-2 rounded mr-[33px]"
+                                                placeholder="姓"
+                                                name="firstName"
+                                                id="firstName"
+                                                type="text"
+                                            />
+                                            <input
+                                                className="my-[14px] h-[50px] w-[243px] border-2 rounded"
+                                                placeholder="名"
+                                                name="lastName"
+                                                id="lastName"
+                                                type="text"
+                                            />
+                                        </div>
+                                        <div className="flex justify-center items-center">
+                                            <input
+                                                className="h-[50px] w-[519px] border-2 rounded"
+                                                placeholder="会社名"
+                                                name="company"
+                                                id="company"
+                                                type="text"
+                                            />
+                                        </div>
+                                        <div className="my-[14px] flex justify-center items-center">
+                                            <input
+                                                className="h-[50px] w-[519px] border-2 rounded"
+                                                placeholder="会社のメールアドレス"
+                                                name="email"
+                                                id="email"
+                                                type="email"
+                                            />
+                                        </div>
+                                        <div className="flex justify-center items-center">
+                                            <input
+                                                className="h-[50px] w-[519px] border-2 rounded"
+                                                placeholder="電話番号(ハイフンなし)"
+                                                name="phoneNumber"
+                                                id="phoneNumber"
+                                                type="text"
+                                            />
+                                        </div>
+                                        <div className="my-[14px] flex justify-center items-center h-[50px] w-[519px]">
+                                            <Input
+                                                component="select"
+                                                className="border-1 rounded h-full w-full"
+                                                name="department"
+                                                id="department"
+                                            >
+                                                <option value="-">
+                                                    部門を選択してください
+                                                </option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                            </Input>
+                                        </div>
+                                        <div className="flex justify-center items-center h-[50px] w-[519px]">
+                                            <Input
+                                                component="select"
+                                                className="h-full w-full border-1 rounded"
+                                                name="position"
+                                                id="position"
+                                            >
+                                                <option value="-">
+                                                    役職を選択してください
+                                                </option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                            </Input>
+                                        </div>
                                     </div>
-                                    <div className="flex justify-center items-center">
-                                        <input
-                                            className="h-[50px] w-[519px] border-2 rounded"
-                                            placeholder="会社名"
-                                            name="company"
-                                            id="company"
-                                            type="text"
-                                        />
+                                    <div className="w-[555px] mx-auto px-4">
+                                        <div className="mb-[15px] flex justify-start text-[16px]">
+                                            <Checkbox label="プライバシーポリシーに同意する" />
+                                        </div>
+                                        <div className="flex">
+                                            <div className="mt-[23px] mb-[41px] text-[#0071C1] text-[14px] flex justify-start">
+                                                <Link href="/">
+                                                    プライバシーポリシー
+                                                </Link>
+                                            </div>
+                                            <div className="mt-[23px] mb-[41px] text-[14px]">
+                                                に同意の上、送信ください。
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div className="my-[14px] flex justify-center items-center">
-                                        <input
-                                            className="h-[50px] w-[519px] border-2 rounded"
-                                            placeholder="会社のメールアドレス"
-                                            name="email"
-                                            id="email"
-                                            type="email"
-                                        />
-                                    </div>
-                                    <div className="flex justify-center items-center">
-                                        <input
-                                            className="h-[50px] w-[519px] border-2 rounded"
-                                            placeholder="電話番号(ハイフンなし)"
-                                            name="phoneNumber"
-                                            id="phoneNumber"
-                                            type="text"
-                                        />
-                                    </div>
-                                    <div className="my-[14px] flex justify-center items-center h-[50px] w-[519px]">
-                                        <Input
-                                            component="select"
-                                            className="border-1 rounded h-full w-full"
-                                            name="department"
-                                            id="department"
-                                        >
-                                            <option value="-">
-                                                部門を選択してください
-                                            </option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                        </Input>
-                                    </div>
-                                    <div className="flex justify-center items-center h-[50px] w-[519px]">
-                                        <Input
-                                            component="select"
-                                            className="h-full w-full border-1 rounded"
-                                            name="position"
-                                            id="position"
-                                        >
-                                            <option value="-">
-                                                役職を選択してください
-                                            </option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                        </Input>
+                                    <div className="flex justify-center">
+                                        <button type="submit">
+                                            <Image
+                                                src="/Images/button.png"
+                                                objectFit="cover"
+                                                alt=""
+                                                width={256}
+                                                height={50}
+                                            />
+                                        </button>
                                     </div>
                                 </form>
-                            </div>
-                            <div className="w-[555px] mx-auto px-4">
-                                <div className="mb-[15px] flex justify-start text-[16px]">
-                                    <Checkbox label="プライバシーポリシーに同意する" />
-                                </div>
-                                <div className="flex">
-                                    <div className="mt-[23px] mb-[41px] text-[#0071C1] text-[14px] flex justify-start">
-                                        <Link href="/">
-                                            プライバシーポリシー
-                                        </Link>
-                                    </div>
-                                    <div className="mt-[23px] mb-[41px] text-[14px]">
-                                        に同意の上、送信ください。
-                                    </div>
-                                </div>
-                                <div className="flex justify-center">
-                                    <button type="submit">
-                                        <Image
-                                            src="/Images/button.png"
-                                            objectFit="cover"
-                                            alt=""
-                                            width={256}
-                                            height={50}
-                                        />
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </main>
