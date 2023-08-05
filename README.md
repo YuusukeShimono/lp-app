@@ -11,7 +11,7 @@
 1.node.jsをインストールする
 　参照:https://nodejs.org/ja
 
-2.コードをクローンし、同じディレクトリにて[node_modules]をインストール
+2.コードをクローンし、同じディレクトリにて[node_modules]をインストール <br />
  コマンド:yarn install
 
 3.Form App(https://www.newt.so/form-app)で自動メール送信機能を作成
