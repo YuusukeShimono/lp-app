@@ -103,7 +103,7 @@ const Home = () => {
                             />
                         </div>
                         <div className="flex justify-center mt-16 mb-[75px]">
-                            <button>
+                            <button type="submit">
                                 <Image
                                     src="/Images/button.png"
                                     objectFit="cover"
@@ -114,15 +114,13 @@ const Home = () => {
                             </button>
                         </div>
                         <div className="flex justify-center">
-                            <button>
-                                <Image
-                                    src="/Images/Framer0.png"
-                                    objectFit="cover"
-                                    alt=""
-                                    width={852}
-                                    height={50}
-                                />
-                            </button>
+                            <Image
+                                src="/Images/Framer0.png"
+                                objectFit="cover"
+                                alt=""
+                                width={852}
+                                height={50}
+                            />
                         </div>
                         <div className="h-[842px] w-[852px] bg-blue-700">
                             <div className="flex justify-center items-center">
@@ -223,7 +221,7 @@ const Home = () => {
                                 </h1>
                             </div>
                             <div className="mt-10 flex justify-center">
-                                <button>
+                                <button type="submit">
                                     <Image
                                         src="/Images/button.png"
                                         objectFit="cover"
@@ -272,58 +270,82 @@ const Home = () => {
                                 </h3>
                             </div>
                             <div className="h-[420px] w-[555px] mx-auto p-4 mt-[41px] flex flex-col items-center">
-                                <div className="flex justify-center items-center mb-4">
-                                    <input
-                                        className="h-[50px] w-[243px] border-2 rounded mr-[33px]"
-                                        placeholder="姓"
-                                    />
-                                    <input
-                                        className="my-[14px] h-[50px] w-[243px] border-2 rounded"
-                                        placeholder="名"
-                                    />
-                                </div>
-                                <div className="flex justify-center items-center">
-                                    <input
-                                        className="h-[50px] w-[519px] border-2 rounded"
-                                        placeholder="会社名"
-                                    />
-                                </div>
-                                <div className="my-[14px] flex justify-center items-center">
-                                    <input
-                                        className="h-[50px] w-[519px] border-2 rounded"
-                                        placeholder="会社のメールアドレス"
-                                    />
-                                </div>
-                                <div className="flex justify-center items-center">
-                                    <input
-                                        className="h-[50px] w-[519px] border-2 rounded"
-                                        placeholder="電話番号(ハイフンなし)"
-                                    />
-                                </div>
-                                <div className="my-[14px] flex justify-center items-center h-[50px] w-[519px]">
-                                    <Input
-                                        component="select"
-                                        className="border-1 rounded h-full w-full"
-                                    >
-                                        <option value="-">
-                                            部門を選択してください
-                                        </option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                    </Input>
-                                </div>
-                                <div className="flex justify-center items-center h-[50px] w-[519px]">
-                                    <Input
-                                        component="select"
-                                        className="h-full w-full border-1 rounded"
-                                    >
-                                        <option value="-">
-                                            役職を選択してください
-                                        </option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                    </Input>
-                                </div>
+                                <form
+                                    action="https://lpsite.form.newt.so/v1/2Dv_UrJgX"
+                                    method="post"
+                                >
+                                    <div className="flex justify-center items-center mb-4">
+                                        <input
+                                            className="h-[50px] w-[243px] border-2 rounded mr-[33px]"
+                                            placeholder="姓"
+                                            name="firstName"
+                                            id="firstName"
+                                            type="text"
+                                        />
+                                        <input
+                                            className="my-[14px] h-[50px] w-[243px] border-2 rounded"
+                                            placeholder="名"
+                                            name="lastName"
+                                            id="lastName"
+                                            type="text"
+                                        />
+                                    </div>
+                                    <div className="flex justify-center items-center">
+                                        <input
+                                            className="h-[50px] w-[519px] border-2 rounded"
+                                            placeholder="会社名"
+                                            name="company"
+                                            id="company"
+                                            type="text"
+                                        />
+                                    </div>
+                                    <div className="my-[14px] flex justify-center items-center">
+                                        <input
+                                            className="h-[50px] w-[519px] border-2 rounded"
+                                            placeholder="会社のメールアドレス"
+                                            name="email"
+                                            id="email"
+                                            type="email"
+                                        />
+                                    </div>
+                                    <div className="flex justify-center items-center">
+                                        <input
+                                            className="h-[50px] w-[519px] border-2 rounded"
+                                            placeholder="電話番号(ハイフンなし)"
+                                            name="phoneNumber"
+                                            id="phoneNumber"
+                                            type="text"
+                                        />
+                                    </div>
+                                    <div className="my-[14px] flex justify-center items-center h-[50px] w-[519px]">
+                                        <Input
+                                            component="select"
+                                            className="border-1 rounded h-full w-full"
+                                            name="department"
+                                            id="department"
+                                        >
+                                            <option value="-">
+                                                部門を選択してください
+                                            </option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                        </Input>
+                                    </div>
+                                    <div className="flex justify-center items-center h-[50px] w-[519px]">
+                                        <Input
+                                            component="select"
+                                            className="h-full w-full border-1 rounded"
+                                            name="position"
+                                            id="position"
+                                        >
+                                            <option value="-">
+                                                役職を選択してください
+                                            </option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                        </Input>
+                                    </div>
+                                </form>
                             </div>
                             <div className="w-[555px] mx-auto px-4">
                                 <div className="mb-[15px] flex justify-start text-[16px]">
@@ -340,7 +362,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="flex justify-center">
-                                    <button>
+                                    <button type="submit">
                                         <Image
                                             src="/Images/button.png"
                                             objectFit="cover"
