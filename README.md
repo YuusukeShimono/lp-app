@@ -1,13 +1,13 @@
-## 使用技術
+# 使用技術
 
 -   Next.js
 -   Tailwindcss.
 -   Mantine.
 -   Form App
 
-## 使い方
+# 使い方
 
-# ローカル環境
+## ローカル環境
 1.node.jsをインストールする
 　参照:https://nodejs.org/ja
 
@@ -17,7 +17,7 @@
 3.Form App(https://www.newt.so/form-app)で自動メール送信機能を作成
 　参照:https://www.newt.so/docs/tutorials/contact-form-in-nextjs
 
-変数一覧：
+変数一覧：<br />
 姓:firstName <br />
 名:lastName <br />
 会社:company <br />
@@ -30,5 +30,5 @@
 4.index.tsxの274行目の「action=""」とcomponents-sidebar.tsxの18行目の「action=""」に
 　3で作成したエンドポイントの値を入れる(どちらも同じ)
 
-# 本番環境
+## 本番環境
 - サーバにアップする
