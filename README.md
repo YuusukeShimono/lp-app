@@ -27,7 +27,7 @@
 役職:position <br />
 
 
-4.index.tsxの274行目の「action=""」とcomponents-sidebar.tsxの18行目の「action=""」に
+4.index.tsxの273行目の「action=""」とcomponents-sidebar.tsxの17行目の「action=""」に
 　3で作成したエンドポイントの値を入れる(どちらも同じ)
 
 ## 本番環境
