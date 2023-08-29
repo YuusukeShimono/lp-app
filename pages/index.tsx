@@ -19,7 +19,7 @@ const Home = () => {
                     <main className="h-auto">
                         <div className="w-full">
                             <Image
-                                src="/Images/FV.png"
+                                src="/Images/nochipc.png"
                                 objectFit="cover"
                                 alt=""
                                 width={854}
