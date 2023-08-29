@@ -6,6 +6,8 @@ export type PagesPath = typeof pagesPath
 
 export const staticPath = {
   Images: {
+    nochipc_png: '/Images/nochipc.png',
+    nochisp_png: '/Images/nochisp.png',
     FV_png: '/Images/FV.png',
     Frame_png: '/Images/Frame.png',
     Framer0_png: '/Images/Framer0.png',
